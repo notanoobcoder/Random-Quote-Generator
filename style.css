@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 html {
  box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     min-height: 100vh;
     background: url("./paint.jpg");
     background-size: cover;
     background-position: 50% 60%;
     background-attachment: fixed;
-    font-family: 'Alegreya', serif;
+    color: black;
     font-family: 'Patrick Hand', cursive;
     font-weight: 800;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 .quote-container {
     width: auto;
     max-width: 900px;
@@ -59,11 +59,11 @@ button {
     height: 2.5rem;
     border: none;
     border-radius: 15px;
-    color: white;
-    background: #ee5522;
+    color: gainsboro;
+    background: black;
     outline: none;
     padding: 0.5rem 1.8rem;
-    box-shadow: 0 0.3rem #661f08;
+    box-shadow: 0 0.3rem gainsboro;
 }
 
 button:hover {
@@ -80,7 +80,7 @@ button:active {
 }
 
 .new-quote:hover{
-    color: lightcyan;
+    color: beige;
 }
 
 .fa-twitter {
@@ -92,7 +92,7 @@ button:active {
 /*Loader*/
 .loader {
     border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #ee5522; /* Crimson-ish */
+    border-top: 16px solid black; /* Black */
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -114,3 +114,5 @@ button:active {
         font-size: 2.5rem;
     }
 }
+
+
